@@ -1,6 +1,10 @@
-# 這是一段使用selenium爬取FaceBook粉絲專業的爬蟲程式碼，其中可以爬取到拜訪網頁的名字、id/帳號、有無藍鉤驗證、相關簡介、追蹤數、向下滑動至12篇貼文的位置並獲取所有展開貼文的連結，未來將連同貼文的內文、圖片、按讚數、留言數、分享數、前50則留言的留言內容、該留言按讚數一同爬取下來
+# 這是一段使用selenium爬取FaceBook粉絲專業的爬蟲程式碼
+# 其中可以爬取到拜訪網頁的名字、id/帳號、有無藍鉤驗證、相關簡介、追蹤數、向下滑動至12篇貼文的位置並獲取所有展開貼文的連結
+# 未來將連同貼文的內文、圖片、按讚數、留言數、分享數、前50則留言的留言內容、該留言按讚數一同爬取下來
 
-# This is a Python code using Selenium for web scraping Facebook fan pages. It is designed to retrieve the names, IDs/accounts, blue check verification status, related introductions, follower counts, scroll down to the position of the 12th post, and obtain all expanded post links. In the future, it aims to crawl the content, images, likes, comments, shares of each post, as well as the content, likes, and ranking of the first 50 comments.
+# This is a Python code using Selenium for web scraping Facebook fan pages. 
+# It is designed to retrieve the names, IDs/accounts, blue check verification status, related introductions, follower counts, scroll down to the position of the 12th post, and obtain all expanded post links. 
+# In the future, it aims to crawl the content, images, likes, comments, shares of each post, as well as the content, likes, and ranking of the first 50 comments.
 
 from selenium import webdriver
 from selenium.webdriver.common.by import By
